@@ -1,5 +1,8 @@
 buildPack: none
 pipelineConfig:
+  agent:
+    label: jenkins-nodejs
+    container: nodejs
   pipelines:
     pullRequest:
       build:
